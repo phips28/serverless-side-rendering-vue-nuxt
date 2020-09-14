@@ -6,7 +6,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   build: {
     publicPath: `/${require('./secrets.json').NODE_ENV}/_nuxt/`,
@@ -19,7 +19,7 @@ export default {
   router: {
     base: '/',
   },
-  dev: false,
+  // dev: false,
   typescript: {
     typeCheck: {
       eslint: { files: './**/*.{ts,js,vue}', enabled: true },
